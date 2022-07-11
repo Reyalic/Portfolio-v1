@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Martín Vergara Téllez</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <input type="checkbox" name="" id="check" class="toggle-button">
+    <header class="header-container">
+        <label for="check">
+            <span class="bx bx-x" id="menu"></span>
+            <span class="bx bx-menu" id="x"></span>
+        </label>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1 class="home-text">Full Stack Developer</h1>
+            <div class="photo">
+                <img src="./img/1657120648981.jpg">
+                <p>Hi, my name is Martín Vergara</p>
+            </div>
+        </section>
+        <section id="about">
+            <div class="about-box">
+                <h3 class="sections">About me</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In tempora dicta totam quasi iusto quam possimus nesciunt deserunt itaque doloribus expedita veritatis excepturi inventore ut exercitationem aliquam, rerum dolore qui.</p>
+            </div>
+            <div class="about-social">
+                <a href="#"><i class="bx bxl-linkedin-square"></i></a>
+                <a href="#"><i class="bx bxl-github"></i></a>
+                <a href="#"><i class="bx bxl-twitter"></i></a>
+            </div>
+        </section>
+        <section id="projects">
+            <h3 class="sections">Projects</h3>
+            <div class="projects">
+                <div>
+                    <h4>Beauty app</h4>
+                    <img class="project-img" src="./img/Group 46.jpg">
+                    <div class="project-button">
+                        <a href="#">Github</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Training app</h4>
+                    <img class="project-img" src="./img/Group 47.jpg">
+                    <div class="project-button">
+                        <a href="#">Github</a>
+                    </div>
+                </div>
+                <div>
+                    <h4>Hotel app</h4>
+                    <img class="project-img" src="./img/Rectangle 59.jpg">
+                    <div class="project-button">
+                        <a href="#">Github</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h3 class="sections">Contact</h3>
+            <div class="contact-container">
+                <div>
+                    <a href="#"><i class='bx bxl-whatsapp-square whatsapp'></i></a>
+                    <p><b>442-406-8137</b></p>
+                </div>
+                <div>
+                    <a href="#"><i class='bx bxs-envelope email'></i></a>
+                    <p><b>martinver96@hotmail.com</b></p>
+                </div>
+            </div>
+        </section>
+        <section id="form-contact">
+            <form id="form" class="form">
+                <div class="form-group">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message: </label>
+                    <textarea id="message" class="form-control" placeholder="Send me a message" rows="10"></textarea>
+                </div>
+                <input type="submit" class="btn-form" value="Send">
+            </form>
+        </section>
+    </main>
+</body>
+</html>
