@@ -286,10 +286,17 @@ span {
         margin: 0 auto;
         min-width: 70rem;
     }
+    .about-box p {
+        width: 60%;
+        min-width: 70rem;
+        margin: 0 auto;
+    }
     .projects {
         grid-template-columns: repeat(3, 1fr);
-        gap: 2rem;
+        gap: 3rem;
         min-width: 85rem;
+        max-width: 120rem;
+        width: 75%;
     }
     .projects div {
         flex-direction: column;
@@ -301,6 +308,7 @@ span {
         width: 90%;
     }
     #form {
-        max-width: 65%;
+        width: 65%;
+        max-width: 120rem;
     }
 }
