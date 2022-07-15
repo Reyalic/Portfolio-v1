@@ -238,7 +238,7 @@ span {
 
 @media (min-width: 650px) {
     .header-container {
-        position: sticky;
+        position: fixed;
         height: 9rem;
         transform: translateY(0);
     }
